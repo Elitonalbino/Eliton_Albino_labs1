@@ -17,7 +17,7 @@ public class fruteira {
         if(morango <= 5){
             precoMorango = 2.50;
         }else{
-            precoMorango =2.20;
+            precoMorango = 2.20;
         }
         if(maça <= 5){
             PrecoMaca = 1.80;
@@ -36,12 +36,7 @@ public class fruteira {
        
        }
        System.out.println("Preço Total com desconto R$: " + (precoTotal));
-
-
-
      
-       
-        
        scan.close();
     }
 
